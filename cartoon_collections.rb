@@ -16,5 +16,5 @@ def find_the_cheese (food)
 end
 
 def words_with_b (words)
-  words.find? { |b| b.start_with?("b")}
+  words.find { |b| b.start_with?("b")}
 end
