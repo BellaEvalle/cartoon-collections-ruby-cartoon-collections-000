@@ -1,5 +1,5 @@
 def roll_call_dwarves (dwarves)
-dwarves.each_with_index { |name, index| puts "#{index + 1}. #{name}" }
+dwarves.each_with_index { |name, index| dwarves.length / 2}
 end
 
 def summon_captain_planet (planeteer_calls)
@@ -16,5 +16,5 @@ def find_the_cheese (food)
 end
 
 def words_with_b (words)
-  words.find { |b| b.start_with?("b")}
+  words.select { |b| b.start_with?("b")}
 end
