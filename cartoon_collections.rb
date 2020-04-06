@@ -14,3 +14,6 @@ def find_the_cheese (food)
   cheese_types = ["cheddar", "gouda", "camembert"]
   food.find { |item| cheese_types.include?(item) }
 end
+
+def words_with_b (words)
+  words.find? { |b| b.start_with?(b)}
